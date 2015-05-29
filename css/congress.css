@@ -10,7 +10,7 @@ body {
 }
 
 
-
+/*TWITTER COLUMN LEFT*/
 .col-1 {
   float:left;
   width: 33%;
@@ -19,89 +19,58 @@ body {
 
 }
 
+
+/*TWITER COLUMN RIGHT*/
 .col-4 {
 
   float: right;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-* {
-  margin:0;
-  padding:0;
-  border:0;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-}
-
-
-.clear {
-  clear: both;
-}
-
-.col-1 {
-  float:left;
-  width: 32%;
-
-
-}
-
+/*CANDIDATE HILLARY*/
 .col-2 {
-  float:left;
-  width: 66%;
+    position: absolute;
+   top: 90%;
+   left: 50%;
+   margin-top: -250px; 
+   margin-left: -250px; 
+   
+   
+   display: block;
+   width: 200px;
+    height: 300px;
+    overflow: hidden;
+    white-space: nowrap;
+    background: url("../images/presidents.png");
+}
+
+.col-2:hover {
+    background-position: -400px 0;
+  }
+
   
 
+ /*  CANDIDATE RUBIO */
+  .col-3 {
+
+   position: absolute;
+   top: 90%;
+   left: 70%;
+   margin-top: -250px; 
+   margin-left: -250px; 
+ 
+   display: block;
+   width: 200px;
+    height: 600px;
+    overflow: hidden;
+    white-space: nowrap;
+    background: url("../images/presidents.png");
 }
 
 
 
-[class*="col-"] {
-
-  margin-left:2%;
-}
-
-.first {
-  margin-left: 0%;
 
 
-}
 
 
-section {
 
-  margin-bottom: 20px;
-  padding:20px;
-}
-
-.wrapper {
-  width: 960px;
-  margin: 0 auto;
-}
-
-.shadow {
-  box-shadow: 0 3px 10px #333;
-}
-
-section {
-    padding: 20px;
-    background: white;
-  }*/
 
