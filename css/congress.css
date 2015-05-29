@@ -61,7 +61,7 @@ body {
  
    display: block;
    width: 200px;
-    height: 600px;
+    height: 300px;
     overflow: hidden;
     white-space: nowrap;
     background: url("../images/presidents.png");
