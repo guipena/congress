@@ -41,6 +41,7 @@ body {
     overflow: hidden;
     white-space: nowrap;
     background: url("../images/presidents.png");
+    background-position: 0 0;
 }
 
 .col-2:hover {
@@ -64,9 +65,12 @@ body {
     overflow: hidden;
     white-space: nowrap;
     background: url("../images/presidents.png");
+    background-position: 0 -300px;
 }
 
-
+.col-3:hover {
+    background-position: -400px -300px;
+  }
 
 
 
